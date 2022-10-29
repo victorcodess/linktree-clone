@@ -1,3 +1,30 @@
 img {
   width: 100%;
 }
+
+.card {
+  border: none;
+  width: 1000px;
+  height: 65px;
+  padding: 10px 30px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  scale: 0.9;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card:hover {
+  cursor: pointer;
+}

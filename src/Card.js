@@ -2,8 +2,8 @@
 
 export default function Card(props) {
     return (
-        <div className="card">
-            <a href= {`${props.link}`} target= "_blank" rel= "noreferrer"><button>{props.title}</button></a>
+        <div className= {`${props.id}`}>
+            <a href= {`${props.link}`} target= "_blank" rel= "noreferrer"  className="card">{props.title}</a>
         </div>
     )
 }
