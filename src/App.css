@@ -28,3 +28,17 @@ a {
 .card:hover {
   cursor: pointer;
 }
+
+.social-links {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  width: 1152px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0; */
+}

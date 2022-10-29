@@ -6,7 +6,8 @@ function App() {
     <div className="App">
     <div className="profile-section">
       <img src="../public/square.png" alt="profile" id='profile_img'/>
-      <h2>Victor Williams</h2>
+      <h2>@victorwill__</h2>
+      <p id="slack"></p>
     </div>
 
     <Card 
@@ -40,6 +41,15 @@ function App() {
       id = "book_design"
     />
     
+    <div className="social-links">
+    <a href= "https://app.slack.com/" target= "_blank" rel= "noreferrer"><img src="../public/slack.png" alt="slack" /></a>
+    <a href= "https://github.com/victorcodess" target= "_blank" rel= "noreferrer"><img src="../public/Icon.png" alt="github" /></a>
+    </div>
+
+    <footer>
+      <a href=""><img src="../public/Zuri.Internship_Logo.png" alt="" /></a>
+      <a href=""><img src="../public/I4G.png" alt="" /></a>
+    </footer>
 
     </div>
   );
