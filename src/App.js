@@ -28,7 +28,7 @@ function App() {
     />
     <Card 
       title = "Python Books"
-      link = "https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>"
+      link = "https://books.zuri.team/python-for-beginners?ref_id=victorwill"
       id = "book_python"
     />
     <Card 
@@ -48,12 +48,16 @@ function App() {
     <a href= "https://github.com/victorcodess" target= "_blank" rel= "noreferrer"><img src={require("./Icon.png")} alt="github" /></a>
     </div>
 
+    <hr />
+
     <footer>
+    <div className="footer_section">
       <a href="https://internship.zuri.team/"><img src={require("./Zuri.Internship_Logo.png")} alt="" /></a>
       <p>HNG Internship 9 Frontend Task</p>
       <a href="https://ingressive.org/"><img src={require("./I4G.png")} alt="" /></a>
-
+    </div>
     </footer>
+    
 
     </div>
   );
