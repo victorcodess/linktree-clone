@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
     <div className="profile-section">
-      <img src="../public/square.png" alt="profile" id='profile_img'/>
+      <img src={require("./square.png")} alt="profile" id='profile_img'/>
       <h2>@victorwill__</h2>
       <p id="slack"></p>
     </div>
@@ -42,13 +42,14 @@ function App() {
     />
     
     <div className="social-links">
-    <a href= "https://app.slack.com/" target= "_blank" rel= "noreferrer"><img src="../public/slack.png" alt="slack" /></a>
-    <a href= "https://github.com/victorcodess" target= "_blank" rel= "noreferrer"><img src="../public/Icon.png" alt="github" /></a>
+    <a href= "https://app.slack.com/" target= "_blank" rel= "noreferrer"><img src={require("./slack.png")} alt="slack" /></a>
+    <a href= "https://github.com/victorcodess" target= "_blank" rel= "noreferrer"><img src={require("./Icon.png")} alt="github" /></a>
     </div>
 
     <footer>
-      <a href=""><img src="../public/Zuri.Internship_Logo.png" alt="" /></a>
-      <a href=""><img src="../public/I4G.png" alt="" /></a>
+      <a href=""><img src={require("./Zuri.Internship_Logo.png")} alt="" /></a>
+      <a href=""><img src={require("./I4G.png")} alt="" /></a>
+
     </footer>
 
     </div>

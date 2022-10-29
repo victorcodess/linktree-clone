@@ -1,5 +1,6 @@
-img {
-  width: 100%;
+#profile_img {
+  width: 150px;
+  border-radius: 100%;
 }
 
 .card {
