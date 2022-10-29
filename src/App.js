@@ -4,12 +4,13 @@ import Card from "./Card"
 function App() {
   return (
     <div className="App">
-    <div className="profile-section">
+    <div className="profile_section">
       <img src={require("./square.png")} alt="profile" id='profile_img'/>
       <h2>@victorwill__</h2>
-      <p id="slack"></p>
+      {/* <p id="slack">victorwill</p> */}
     </div>
 
+    <div className="card_section">
     <Card 
       title = "Twitter Link"
       link = "https://twitter.com/victorwill__"
@@ -40,15 +41,17 @@ function App() {
       link = "https://books.zuri.team/design-rules"
       id = "book_design"
     />
-    
-    <div className="social-links">
+    </div>
+
+    <div className="social_links">
     <a href= "https://app.slack.com/" target= "_blank" rel= "noreferrer"><img src={require("./slack.png")} alt="slack" /></a>
     <a href= "https://github.com/victorcodess" target= "_blank" rel= "noreferrer"><img src={require("./Icon.png")} alt="github" /></a>
     </div>
 
     <footer>
-      <a href=""><img src={require("./Zuri.Internship_Logo.png")} alt="" /></a>
-      <a href=""><img src={require("./I4G.png")} alt="" /></a>
+      <a href="https://internship.zuri.team/"><img src={require("./Zuri.Internship_Logo.png")} alt="" /></a>
+      <p>HNG Internship 9 Frontend Task</p>
+      <a href="https://ingressive.org/"><img src={require("./I4G.png")} alt="" /></a>
 
     </footer>
 
