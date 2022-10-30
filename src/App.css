@@ -23,6 +23,10 @@ body {
   border-radius: 100%;
 }
 
+#slack {
+  display: none;
+}
+
 .card_section {
   display: flex;
   flex-direction: column;
@@ -82,9 +86,10 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 100px 50px;
+  margin: 5px 100px 5px;
+  padding: 20px 0;
   width: 1300px;
-  border-top: #000 2px;
+  border-top: 3px solid #6670852e;
 }
 
 footer a img {
