@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
     <div className="profile_section">
-      <img src={require("./square.png")} alt="profile" id='profile_img'/>
+      {/* <img src={require("./square.png")} alt="profile" id='profile_img'/> */}
+      <img src={require("./_Avatar share button.png")} alt="share" id='share_btn'/>
       <h2>@victorwill__</h2>
       <p id="slack">victorwill</p>
     </div>
@@ -52,9 +53,7 @@ function App() {
     <div className="social_links">
     <a href= "https://app.slack.com/" target= "_blank" rel= "noreferrer"><img src={require("./slack.png")} alt="slack" /></a>
     <a href= "https://github.com/victorcodess" target= "_blank" rel= "noreferrer"><img src={require("./Icon.png")} alt="github" /></a>
-    </div>
-
-   
+    </div>   
 
     <footer>
     <div className="footer_section">
