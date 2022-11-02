@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
     <div className="profile_section">
-      {/* <img src={require("./square.png")} alt="profile" id='profile_img'/> */}
+      <img src={require("./square.png")} alt="profile" id='profile_img'/>
       <img src={require("./_Avatar share button.png")} alt="share" id='share_btn'/>
       <h2>@victorwill__</h2>
       <p id="slack">victorwill</p>
