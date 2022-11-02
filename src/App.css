@@ -3,6 +3,7 @@
 body {
   font-family: 'Inter', sans-serif;
   color: #101828;
+  font-size: 18px;
 }
 
 .profile_section {
@@ -113,8 +114,55 @@ footer p {
   color: #667085;
 }
 
-@media screen and (min-width: 80rem) {
-  .container {
-    margin: 1em 2em;
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 15px;
   }
-}
+
+  .profile_section {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  #profile_img {
+    width: 130px;
+  }
+  
+  #share_btn {
+    right: 70px;
+    top: 50px;
+  }
+
+  .card {
+    border: none;
+    width: 390px;
+    height: 40px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  
+  .social_links {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .social_links a img {
+    width: 20px;
+    padding: 0  10px;
+  }
+  
+  .footer_section {
+    margin: 5px 100px 5px;
+    padding: 20px 0;
+    width: 1500px;
+    border-top: 3px solid #6670852e;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  footer a img {
+    width: 80px;
+    margin: 0 10px;
+  }
+  }
